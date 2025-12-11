@@ -163,12 +163,21 @@
         }
 
         .article-image {
-            height: 400px;
             background: linear-gradient(135deg, #4facfe, #00f2fe);
             display: flex;
             align-items: center;
             justify-content: center;
             font-size: 6rem;
+            width: 100%;
+            height: 400px;
+            overflow: hidden;
+        }
+        
+        .article-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
         }
 
         .article-content {
@@ -386,7 +395,7 @@
 
         <div class="content-grid">
             <div class="article-card">
-                <div class="article-image">👗</div>
+                <div class="article-image"><img src="pictures/project3images/fashion.jpg"></div>
                 <div class="article-content">
                     <p class="article-category">Fashion</p>
                     <h3>Spring Collection 2025: A Fresh Perspective</h3>
@@ -397,7 +406,7 @@
             </div>
 
             <div class="article-card">
-                <div class="article-image">🏛️</div>
+                <div class="article-image"><img src="pictures/project3images/house.jpg"></div>
                 <div class="article-content">
                     <p class="article-category">Design</p>
                     <h3>Minimalist Homes That Inspire</h3>
@@ -408,7 +417,7 @@
             </div>
 
             <div class="article-card">
-                <div class="article-image">🎨</div>
+                <div class="article-image"><img src="pictures/project3images/art.jpg"></div>
                 <div class="article-content">
                     <p class="article-category">Culture</p>
                     <h3>Contemporary Art in the Digital Era</h3>
@@ -419,7 +428,7 @@
             </div>
 
             <div class="article-card">
-                <div class="article-image">🍽️</div>
+                <div class="article-image"><img src="pictures/project3images/food.jpeg"></div>
                 <div class="article-content">
                     <p class="article-category">Lifestyle</p>
                     <h3>The New Wave of Culinary Excellence</h3>
@@ -430,7 +439,7 @@
             </div>
 
             <div class="article-card">
-                <div class="article-image">✈️</div>
+                <div class="article-image"><img src="pictures/project3images/place.jpg"></div>
                 <div class="article-content">
                     <p class="article-category">Travel</p>
                     <h3>Hidden Gems: 10 Destinations Worth Discovering</h3>
@@ -440,7 +449,7 @@
             </div>
 
             <div class="article-card">
-                <div class="article-image">💼</div>
+                <div class="article-image"><img src="pictures/project3images/women.jpeg"></div>
                 <div class="article-content">
                     <p class="article-category">Business</p>
                     <h3>Women Leading the Tech Revolution</h3>

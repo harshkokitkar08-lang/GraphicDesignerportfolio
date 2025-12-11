@@ -769,30 +769,16 @@ body {
 .project-icon {
     font-size: 5rem;
     filter: brightness(1.2);
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
 }
 
-.gradient-bg-1 {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-}
-
-.gradient-bg-2 {
-    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
-}
-
-.gradient-bg-3 {
-    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
-}
-
-.gradient-bg-4 {
-    background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
-}
-
-.gradient-bg-5 {
-    background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
-}
-
-.gradient-bg-6 {
-    background: linear-gradient(135deg, #30cfd0 0%, #330867 100%);
+.project-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
 
 .portfolio-info {
